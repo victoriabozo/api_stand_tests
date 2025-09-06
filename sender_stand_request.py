@@ -9,4 +9,4 @@ def post_new_user(body):
 
 def get_users_table():
     return requests.get(configuration.URL_SERVICE + configuration.USERS_TABLE_PATH,
-                        headers=data.headers)
+                        headers = data.headers)
