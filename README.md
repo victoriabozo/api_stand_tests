@@ -10,18 +10,18 @@ Las pruebas comprueban escenarios positivos y negativos, incluyendo longitudes p
 - Pruebas positivas y negativas para verificar cumplimiento de restricciones (longitud mínima/máxima, tipo de dato, caracteres válidos).
 
 ## Instrucciones para ejecutar las pruebas
-- Clona el repositorio en tu entorno local con SSH. Reemplaza username con tu usuario:
-```sh
-  git clone git@github.com:username/qa-project-create-user.git
-  ```
+- Clona el repositorio en tu entorno local con SSH. Reemplaza "username" con tu usuario:
+  ```sh
+    git clone git@github.com:username/qa-project-create-user.git
+    ```
 - Instala las dependencias necesarias:
-```sh
-  pip install pytest requests
-  ```
+  ```sh
+    pip install pytest requests
+    ```
 - Ejecuta todas las pruebas con:
-```sh
-  pytest
-  ```
+  ```sh
+    pytest
+    ```
 
 ## Estructura de las pruebas automatizadas
 - Validaciones positivas:
